@@ -12,7 +12,7 @@ Prepare the lists from the matrix and assign in np.array()
 ### Step 3: 
 Using the np.linalg.eig(),  we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
 ### Step 4: 
-End the program
+End the program.
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
