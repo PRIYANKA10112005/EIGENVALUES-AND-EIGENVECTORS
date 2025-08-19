@@ -1,4 +1,6 @@
 # EIGENVALUES-AND-EIGENVECTORS
+DEVELOPED BY : PRIYANKA P 
+REG NO. : 212224230212
 ## Aim:
 To write a python program to find the Eigenvalues and Eigen Vectors
 ## Equipment’s required:
@@ -16,15 +18,15 @@ End the program.
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
-#Developed by: GAUTHAM KRISHNA S
-#RegisterNumber:23012450
+#Developed by: PRIYANKA P
+#RegisterNumber: 212224230212
 import numpy as np
-A = np.array([[2,2],[1,3]])
-B,C = np.linalg.eig(A)
-print(f"Eigen values are {B} and Eigen Vectors are {C}")
+A = np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print(f"Eigen values are {eigenvalues} and Eigen Vectors are {eigenvectors}")
+
 ```
 ## Output:
-![Screenshot 2023-12-24 221726](https://github.com/gauthamkrishna7/EIGENVALUES-AND-EIGENVECTORS/assets/141175025/1f19c134-2102-4cc7-bd2c-413f3c036ef7)
-
+<img width="1920" height="1200" alt="Screenshot 2025-08-19 212508" src="https://github.com/user-attachments/assets/c8dac0f3-b4f2-420e-9664-9043ae99e47a" />
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
